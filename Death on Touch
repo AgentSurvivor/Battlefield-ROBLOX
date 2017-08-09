@@ -1,0 +1,6 @@
+function onTouched(part)
+local h = part.Parent:findFirstChild(&quot;Humanoid&quot;)
+if h~=nil then
+h.Health = h.Health - 1000
+end
+end
